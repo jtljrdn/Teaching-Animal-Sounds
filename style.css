@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background: #6e35ff;
+    color: white;
+    padding: 2px;
+    margin: 0;
+    box-shadow: 0px 6px 15px black;
+}
