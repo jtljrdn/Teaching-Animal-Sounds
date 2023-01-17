@@ -1,6 +1,7 @@
 body {
     text-align: center;
     margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 header {
@@ -10,3 +11,4 @@ header {
     margin: 0;
     box-shadow: 0px 6px 15px black;
 }
+
