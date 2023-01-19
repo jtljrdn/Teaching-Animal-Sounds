@@ -2,15 +2,20 @@ body {
     text-align: center;
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
-    background: #ffffff;
+	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    color: white;
 }
 
 header {
-    background: #2ebdff;
     color: white;
-    padding: 2px;
-    margin: 0;
-    box-shadow: 0px 6px 15px black;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 }
 
 #table {
@@ -29,7 +34,7 @@ img {
     width: 125px;
     border-radius: 15px;
 }
-
+/*
 button {
     background-color: #2ebdff;
     border-radius: 15px;
@@ -38,13 +43,25 @@ button {
     cursor: pointer;
     display: inline-block;
     margin: 0;
-    padding-top: 6px;
+    padding-top: px;
     text-align: center;
     vertical-align: baseline;
     white-space: nowrap;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+} 
+*/
+
+button {
+    color: white;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding-top: 5px;
 }
 
 button:hover {
