@@ -2,10 +2,11 @@ body {
     text-align: center;
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
+    background: #ffffff;
 }
 
 header {
-    background: #6e35ff;
+    background: #2ebdff;
     color: white;
     padding: 2px;
     margin: 0;
@@ -19,7 +20,33 @@ header {
     align-items: center;
 }
 
+td {
+    padding: 10px;
+}
+
 img {
     height: 125px;
     width: 125px;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #2ebdff;
+    border-radius: 15px;
+    border-width: 0;
+    color: #5BC0BE;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding-top: 6px;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    background-color: #2e9dff;
 }
