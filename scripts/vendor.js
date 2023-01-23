@@ -18,5 +18,23 @@ const btnSheep = document.getElementById('btn-sheep').addEventListener('click', 
 const btnWolf = document.getElementById('btn-wolf').addEventListener('click', function(){playSound('wolf');});
 const selectedAnimalTitle = document.getElementById('selected-animal-title')
 
-const animalNames = ['alpaca','cat','cow','dog','donkey','duck','elephant','frog','goat','horse','lion','monkey',
-'mouse','owl','pig','rooster','sheep','wolf']
+const animalNames = [
+    {name: 'alpaca', isNew: true},
+    {name: 'cat', isNew: true},
+    {name: 'cow', isNew: true},
+    {name: 'dog', isNew: true},
+    {name: 'donkey', isNew: true},
+    {name: 'duck', isNew: true},
+    {name: 'elephant', isNew: true},
+    {name: 'frog', isNew: true},
+    {name: 'goat', isNew: true},
+    {name: 'horse', isNew: true},
+    {name: 'lion', isNew: true},
+    {name: 'monkey', isNew: true},
+    {name: 'mouse', isNew: true},
+    {name: 'owl', isNew: true},
+    {name: 'pig', isNew: true},
+    {name: 'rooster', isNew: true},
+    {name: 'sheep', isNew: true},
+    {name: 'wolf', isNew: true}
+]
