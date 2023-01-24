@@ -12,10 +12,8 @@ header {
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3px );
-    -webkit-backdrop-filter: blur( 3px );
     border-radius: 0px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-
 }
 
 #table {
@@ -34,31 +32,12 @@ img {
     width: 125px;
     border-radius: 15px;
 }
-/*
-button {
-    background-color: #2ebdff;
-    border-radius: 15px;
-    border-width: 0;
-    color: #5BC0BE;
-    cursor: pointer;
-    display: inline-block;
-    margin: 0;
-    padding-top: px;
-    text-align: center;
-    vertical-align: baseline;
-    white-space: nowrap;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-} 
-*/
 
 button {
     color: white;
     background: rgba( 255, 255, 255, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3px );
-    -webkit-backdrop-filter: blur( 3px );
     border-radius: 15px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     padding-top: 5px;
